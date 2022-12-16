@@ -5,10 +5,10 @@ import type {
   WritebackAction,
   FieldSettings,
   ParameterId,
+  Parameter,
 } from "metabase-types/api";
 
 import validate from "metabase/lib/validate";
-import type { Parameter } from "metabase-types/types/Parameter";
 import type { TemplateTag } from "metabase-types/types/Query";
 import type { Validator } from "metabase-types/forms";
 

@@ -1,5 +1,10 @@
-import { Card, ActionFormSettings, ParameterId } from "metabase-types/api";
-import { Parameter, ParameterTarget } from "metabase-types/types/Parameter";
+import {
+  Card,
+  ActionFormSettings,
+  ParameterId,
+  Parameter,
+} from "metabase-types/api";
+import { ParameterTarget } from "metabase-types/types/Parameter";
 
 export interface WritebackParameter extends Parameter {
   target: ParameterTarget;

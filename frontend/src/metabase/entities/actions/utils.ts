@@ -4,12 +4,11 @@ import type {
   FieldType,
   InputType,
   ParameterType,
-  ModelAction,
+  Parameter as ParameterObject,
 } from "metabase-types/api";
 
 import { getDefaultFieldSettings } from "metabase/writeback/components/ActionCreator/FormCreator";
 
-import type { Parameter as ParameterObject } from "metabase-types/types/Parameter";
 import type { TemplateTag, TemplateTagType } from "metabase-types/types/Query";
 import type NativeQuery from "metabase-lib/queries/NativeQuery";
 import type Question from "metabase-lib/Question";
