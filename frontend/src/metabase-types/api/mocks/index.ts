@@ -8,6 +8,7 @@ export * from "./database";
 export * from "./dataset";
 export * from "./metric";
 export * from "./models";
+export * from "./parameters";
 export * from "./query";
 export * from "./segment";
 export * from "./table";
